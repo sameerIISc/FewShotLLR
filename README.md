@@ -1,23 +1,9 @@
-## Semi-Supervised Learning for Low-light Image Restoration through Quality Assisted Pseudo-Labeling (WACV'2023)
+## Low-Light Image Restoration in Limited  Labeled Training Data Regime 
 
-[Paper](https://openaccess.thecvf.com/content/WACV2023/papers/Malik_Semi-Supervised_Learning_for_Low-Light_Image_Restoration_Through_Quality_Assisted_Pseudo-Labeling_WACV_2023_paper.pdf) &emsp; [Poster](https://drive.google.com/file/d/1g4kNQgEk1LA4C_RE26xm63a0hLpTrp1A/view?usp=sharing) &emsp; [Video](https://drive.google.com/file/d/1nk9b5i39CvIoioYqj5hDSu80Xz3eCOgp/view?usp=sharing)
 
 ### Abstract
 
-Convolutional neural networks have been successful in restoring images captured under poor illumination conditions. Nevertheless, such approaches require a large number of paired low-light and ground truth images for training. Thus, we study the problem of semi-supervised learning for low-light image restoration when limited low-light images have ground truth labels. Our main contributions in this work are twofold. We first deploy an ensemble of low-light restoration networks to restore the unlabeled images and generate a set of potential pseudo-labels. We model the contrast distortions in the labeled set to generate different sets of training data and create the ensemble of networks. We then design a contrastive self-supervised learning based image quality measure to obtain the pseudo-label among the images restored by the ensemble. We show that training the restoration network with the pseudo-labels allows us to achieve excellent restoration performance even with very few labeled pairs. We conduct extensive experiments on three popular low-light image restoration datasets to show the superior performance of our semi-supervised low-light image restoration compared to other approaches.
-
-#### If you find the resource useful, please cite the following :- )
-
-```
-@InProceedings{Malik_2023_WACV,
-    author    = {Malik, Sameer and Soundararajan, Rajiv},
-    title     = {Semi-Supervised Learning for Low-Light Image Restoration Through Quality Assisted Pseudo-Labeling},
-    booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
-    month     = {January},
-    year      = {2023},
-    pages     = {4105-4114}
-}
-```
+Convolutional neural networks based low-light image restoration models require large amounts of aligned low-light and ground-truth image pairs for training. Capturing such a large aligned dataset is very tedious. Thus, we study the problem when only very few labeled image pairs are available for training. We propose a novel and effective way to create more low-light and ground-truth image pairs. We introduce a contrast distortion auto-encoder framework that learns to disentangle the contrast distortion and content features from a low-light image. The contrast distortion features from a low-light image are then fused with the content features from another pristine image to create a low-light version of the pristine image. We then use the generated data to train low-light image restoration models. We evaluate our data generation method in the 5-shot and 10-shot labeled data settings to show the effective performance of our models.
 
 
 
