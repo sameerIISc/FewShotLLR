@@ -7,6 +7,3 @@ Convolutional neural networks based low-light image restoration models require l
 
 <img src="https://github.com/sameerIISc/FewShotLLR/blob/main/cda_arch.png" width="50%" height="50%" />
 
-
-![Imgur](https://github.com/sameerIISc/FewShotLLR/blob/main/cda_arch.png)
-
