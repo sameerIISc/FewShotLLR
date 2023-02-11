@@ -15,7 +15,7 @@ The following figure presents the architecture details of various models in our 
 
 
 ### Results various labeled data setting
-In the paper, we only presented this result for SONY and FUJI dataset in Figure 5 due to space constraint. Here, we also present the result on the CANON dataset.
+Due to space constraint, we only presented this result for SONY and FUJI dataset in Figure 5 in the paper. Here, we also present the result on the CANON dataset.
 <p align="center">
 <img src="https://github.com/sameerIISc/FewShotLLR/blob/main/canon_shot_ssim.png" width="30%" height="30%" />
 </p>
