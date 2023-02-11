@@ -15,6 +15,6 @@ The following figure presents the architecture details of various models in our 
 
 
 <p align="center">
-<img src="https://github.com/sameerIISc/FewShotLLR/blob/main/canon_shot_ssim.eps" width="60%" height="50%" />
+<img src="https://github.com/sameerIISc/FewShotLLR/blob/main/canon_shot_ssim.png" width="60%" height="50%" />
 </p>
 
